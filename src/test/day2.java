@@ -47,5 +47,18 @@ public class day2 {
 		System.out.println("I will execute after methods of class day2"); 
 		
 	} 
-	
+	@BeforeClass
+	public void beforeclass1()
+	{
+		System.out.println("I will execute before methods of class day2"); 
+		System.out.println("I will execute before methods of class day2"); 
+		
+	} 
+	@BeforeClass
+	public void beforeclass2()
+	{
+		System.out.println("I will execute before methods of class day2"); 
+		System.out.println("I will execute before methods of class day2"); 
+		
+	} 
 }
